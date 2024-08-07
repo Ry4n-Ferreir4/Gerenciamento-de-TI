@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Dhurjati
+- Font Author: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2014 Google, Inc.
+- Font Source: https://fonts.gstatic.com/s/dhurjati/v24/_6_8ED3gSeatXfFiFX3ySKQtuTA2.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
