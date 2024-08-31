@@ -34,7 +34,7 @@ const Login = () => {
                 <Input {...register('senha')} type="password" placeholder="Senha" />
                 {errors.senha && <p>{errors.senha.message}</p>}
                 
-                <Button type="submit">Login</Button>
+                <Button type="submit">Entrar</Button>
                 {error && <p>{error}</p>}
             </Form>
         </Container>
