@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const BASE_URL = 'backendAPPTI.pythonanywhere.com'; 
+const BASE_URL = 'https://backendgerenciamento.ryan.tec.br'; 
 
 const axiosInstance = axios.create({
     baseURL: BASE_URL,
