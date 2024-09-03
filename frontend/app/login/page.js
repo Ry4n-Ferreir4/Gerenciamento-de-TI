@@ -2,9 +2,9 @@
 
 import React, { useState, useContext } from 'react';
 import { useRouter } from 'next/navigation';
-import { Container, Form, Input, Button } from '@/components/StyledComponents';
-import AuthContext from '@/context/AuthContext';
-import { loginSchema } from '@/utils/validation';
+import { Container, Form, Input, Button } from '@/app/components/StyledComponents';
+import AuthContext from '@/app/context/AuthContext';
+import { loginSchema } from '@/app/utils/validations';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 

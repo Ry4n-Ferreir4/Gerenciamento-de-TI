@@ -2,13 +2,13 @@
 
 import React, { useState, useContext } from 'react';
 import { useRouter } from 'next/navigation';
-import { Container, Form, Input, Button, Select } from '@/components/StyledComponents';
-import AuthContext from '@/context/AuthContext';
-import { registerSchema } from '@/utils/validation';
-import { zodResolver } from '@hookform/resolvers.zod';
+import { Container, Form, Input, Button, Select } from '@/app/components/StyledComponents';
+import AuthContext from '@/app/context/AuthContext';
+import { registerSchema } from '@/app/utils/validations';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
-import config from '@/config/config';
+import config from '@/app/config/config';
 
 const Register = () => {
     const [error, setError] = useState('');

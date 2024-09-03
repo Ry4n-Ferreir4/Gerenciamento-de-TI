@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useContext } from 'react';
-import AuthContext from '@/context/AuthContext';
-import { Container } from '@/components/StyledComponents';
+import AuthContext from '@/app/context/AuthContext';
+import { Container } from '@/app/components/StyledComponents';
 
 const Profile = () => {
     const { user } = useContext(AuthContext);
